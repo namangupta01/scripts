@@ -2,7 +2,7 @@ require 'watir'
 require 'highline/import'
 
 browser = Watir::Browser.new :chrome
-browser.goto 'https://www.facebook.com/'
+tbrowser.goto 'https://www.facebook.com/'
 # browser.driver.manage().window().maximize
 # screen_width = browser.execute_script("return screen.width;")
 # puts "1"
